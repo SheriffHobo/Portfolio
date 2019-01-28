@@ -6,6 +6,8 @@ body {
   line-height: 34px; /* sets text line height, the smaller # the closer the lines of text */
   color: #777777; /* sets text color */
   background-image: url(../images/bg_leather.jpg); /* sets page background image */
+  height: 100%;
+  margin: 0;
 }
 
 /* global */

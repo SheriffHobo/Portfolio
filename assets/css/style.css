@@ -321,8 +321,13 @@ nav{
   height: 50px;
   padding-top: 10px;
   text-align: center;
-  position: static; /* BG color went away? */
+  position: static;
+  background-color: #fff;
 }
+
+.work {
+  width: 100%;
+  margin: 0 auto;
 
 /* How do I get the images to adjust? */
 

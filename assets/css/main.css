@@ -23,6 +23,7 @@ body {
 	text-align: center;
 	color: #f4f4f4;
 	text-shadow: 0 0 3px #000;
+	cursor: pointer;
 }
 
 .portfolio {
@@ -33,6 +34,7 @@ body {
 	text-align: center;
 	color: #f4f4f4;
 	text-shadow: 0 0 3px #000;
+	cursor: pointer;
 }
 
 .thumbnail-grid figure {
@@ -60,21 +62,29 @@ body {
 
 main {
 	position:absolute;
-  margin: 0 auto;
+	margin: 0 auto;
 	top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
 .flex {
-font-family: "Source Sans Pro", sans-serif;
-font-size: 1.2rem;
-height: 100%;
-flex-direction: row;
-flex-wrap: wrap;
-text-align: center;
-animation: fadein 5s;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.2rem;
+	height: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	animation: fadein 5s;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.flex-item {
+	flex: 0 auto;
 }
 
 .thumbnail-grid figure.i1:hover {

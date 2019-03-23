@@ -1,8 +1,9 @@
 body {
-  background-image: url("/assets/images/foggyggbridge.jpg");
+  background-image: url(../../assets/images/foggyggbridge.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .thumbnail-grid {

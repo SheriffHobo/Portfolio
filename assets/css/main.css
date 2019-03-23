@@ -6,9 +6,6 @@ body {
 	background-attachment: fixed;
 }
 
-.thumbnail-grid {
-  user-select: none;
-}
 .thumbnail-grid figure {
 	position: relative;
 	min-width: 200px;
@@ -17,9 +14,11 @@ body {
 	box-shadow: inset 0 -40px 0 0 rgba(0,0,0,.1);
 	transition: all .2s ease-in-out;
 }
+
 .thumbnail-grid figure:hover {
 	box-shadow: inset 0 -150px 0 0 rgba(0,0,0,.5);
 }
+
 .thumbnail-grid figcaption {
 	position: absolute;
 	width: 100%;
@@ -27,11 +26,7 @@ body {
 	color: #f4f4f4;
 	text-shadow: 0 0 3px #000;
 	bottom: 10px;
-	transition: all .2s ease-in-out;
-}
-.thumbnail-grid figure:hover figcaption {
-  visibility:hidden;
-  bottom: 60px;
+	visibility: visible;
 }
 
 main {
@@ -41,32 +36,55 @@ main {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.2rem;
-	height: 100%;
-	flex-direction: row;
-	flex-wrap: wrap;
-	text-align: center;
 }
 
-.flex-item {
-  animation: fadein 10s;
+.flex {
+font-family: "Source Sans Pro", sans-serif;
+font-size: 1.2rem;
+height: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+text-align: center;
+animation: fadein 10s;
+}
+
+.thumbnail-grid figure.i1:hover {
+	background: url(../../assets/images/triviaquestsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i2:hover {
+	background: url(../../assets/images/trainschedulesmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i3:hover {
+	background: url(../../assets/images/jspongsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i4:hover {
+	background: url(../../assets/images/gifgeneratorsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i5:hover {
+	background: url(../../assets/images/nytsearchsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i6:hover {
+	background: url(../../assets/images/psychihcguesssmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
 }
 
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
-}
-
-.thumbnail-grid figure.i1 {
-	background: url() no-repeat center;
-	background-size: cover;
-}
-.thumbnail-grid figure.i2 {
-	background: url() no-repeat center;
-	background-size: cover;
-}
-.thumbnail-grid figure.i3 {
-	background: url() no-repeat center;
-	background-size: cover;
 }

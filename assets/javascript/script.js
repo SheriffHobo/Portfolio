@@ -1,21 +1,28 @@
 $(function () {
 
-    $('#portfolio').on('click', function (event) {
-        if ($('#contact').val('style' === "display") ){
-            $('#contact').val('style', "display: none;")
+    // NAV
+    const portfolio = document.getElementById('main');
+    const contact = document.getElementById('contact');
+
+    $('#portfolio').on("click", () => {
+        if (portfolio.style.display === 'block') {
+            portfolio.style.display = 'none';
         } else {
-            $('#main').toggle('show');
+        portfolio.style.display = 'block';
+        contact.style.display = 'none';
         }
     });
 
-    $('#contact').on('click', function (event) {
-        if ($('#portfolio').val('style' === "display") ){
-            $('#portfolio').val('style', "display: none;")
+    $('#about').on("click", () => {
+        if (contact.style.display === 'block') {
+            contact.style.display = 'none';
         } else {
-            $('#main').toggle('show');
+        portfolio.style.display = 'none';
+        contact.style.display = 'block';
         }
     });
 
+    // MODALS
     $('[data-toggle="popover"]').popover({
         placement: 'top',
         trigger: 'hover'

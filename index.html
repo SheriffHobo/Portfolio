@@ -14,17 +14,20 @@
 <body>
 
 	<div class="flexnav">
-		<div class="about" id="about">Contact</div>
-		<div class="portfolio" id="portfolio">Portfolio</div>
+		<div class="about" id="about" class="navLink">Contact</div>
+		<div class="portfolio" id="portfolio" class="navLink">Portfolio</div>
 	</div>
 
-	<contact id="contact" style="display: none;">
-		<div>
+	<div id="contact" style="display: none;">
+		<section class="contactsection flex">
+			<figure>
+				<img src="./assets/images/damonheadshot01.jpg" class="headpic">
+				<figcaption>About & Contact</figcaption>
+			</figure>
+		</section>
+	</div>
 
-		</div>
-	</contact>
-
-	<main id="main" style="display: none;">
+	<div id="main" style="display: none;">
 			<section class="thumbnail-grid flex">
 				<a href="https://sheriffhobo.github.io/TriviaQuest/" target="blank" class="flex-item">
 					<figure class="i1" data-toggle="popover" title="Multi-player Trivia Game"
@@ -34,13 +37,13 @@
 				</a>
 				<a href="https://sheriffhobo.github.io/TrainSchedule/" target="blank" class="flex-item">
 					<figure class="i2" data-toggle="popover" title="Keep track of train times"
-					data-content="A class project where a user can add a train, when it starts running, and how often it runs. After that, the app will auto-update arrival times. Technologies used: HTML5, CSS3, ES6, Bootstrap, jQuery, Moments.js, Firebase">
+					data-content="A user can add a train, when it starts running, and how often it runs. After that, the app will auto-update arrival times. Technologies used: HTML5, CSS3, ES6, Bootstrap, jQuery, Moments.js, Firebase">
 						<figcaption>Train Schedule</figcaption>
 					</figure>
 				</a>
 				<a href="https://sheriffhobo.github.io/JS_Pong/" target="blank" class="flex-item">
 					<figure class="i3" data-toggle="popover" title="Pong!"
-					data-content="The classic game of Pong written in vanilla Javascript. Use a mouse/trackpad to control the left panel and try to beat the computer. Technologies used: HTML5, CSS3, ES6.">
+					data-content="The classic game of Pong written in vanilla Javascript. Use a mouse/trackpad to control the left padle and try to beat the computer. Technologies used: HTML5, ES6.">
 						<figcaption>JS Pong</figcaption>
 					</figure>
 				</a>
@@ -65,7 +68,7 @@
 					</figure>
 				</a>
 			</section>
-	</main>
+		</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js"
 		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -76,7 +79,7 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
 
-	<script type="text/javascript" src="assets/javascript/script.js"></script>
+	<script type="text/javascript" src="./assets/javascript/script.js"></script>
 </body>
 
 </html>

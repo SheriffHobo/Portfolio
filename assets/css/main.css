@@ -174,10 +174,10 @@ body {
 	text-shadow: 0 0 3px #000;
 	position: absolute;
 	bottom: 5%;
-	left: 18%;
+	left: 17%;
 }
 
-a {
+* {
 	color: #f4f4f4;
 }
 

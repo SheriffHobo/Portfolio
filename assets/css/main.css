@@ -182,10 +182,14 @@ body {
 	font-size: .90rem;
 	text-align: justify;
 	color: #ffffff;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	position: absolute;
 	top: 5%;
 	right: 5%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+p.textbody {
+	margin: 5px;
 }
 
 a, a:hover, a:link, a:visited {

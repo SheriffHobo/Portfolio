@@ -179,7 +179,7 @@ body {
 
 .abouttext {
 	max-width: 350px;
-	text-align: center;
+	text-align: justify;
 	color: #f4f4f4;
 	text-shadow: 0 0 3px #000;
 	position: absolute;

@@ -163,8 +163,15 @@ body {
 .headpic {
 	max-width: 450px;
 	position: absolute;
-	top: 8%;
+	top: 5%;
 	left: 5%;
+}
+
+.tocontact {
+	max-width: 450px;
+	position: absolute;
+	bottom: 5%;
+	left: 18%;
 }
 
 /* MEDIA */

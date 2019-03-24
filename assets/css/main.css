@@ -169,6 +169,9 @@ body {
 
 .tocontact {
 	max-width: 450px;
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
 	position: absolute;
 	bottom: 5%;
 	left: 18%;

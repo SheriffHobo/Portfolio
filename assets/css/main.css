@@ -177,6 +177,16 @@ body {
 	left: 17%;
 }
 
+.abouttext {
+	max-width: 350px;
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
+	position: absolute;
+	top: 5%;
+	right: 17%;
+}
+
 a, a:hover, a:link, a:visited {
 	color: #f4f4f4;
 }

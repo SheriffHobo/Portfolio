@@ -1,14 +1,15 @@
 /* BODY */
 body {
   background-image: url(../../assets/images/foggyggbridge.jpg);
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 /* NAV */
-.flexnav {
+.navbar {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 1.2rem;
 	display: flex;
@@ -197,3 +198,31 @@ a, a:hover, a:link, a:visited {
 }
 
 /* MEDIA */
+@media only screen and (max-width: 767px) {
+	.navbar {
+		justify-content: center;
+	}
+
+	.container-fluid {
+		width: 90vw;
+	}
+
+	#contact {
+		margin-top: 10vh;
+	}
+
+	#main {
+		margin-top: 10vh;
+	}
+}
+
+@media only screen {
+
+	#contact {
+		margin-top: 10vh;
+	}
+
+	#main {
+		margin-top: 10vh;
+	}
+}
